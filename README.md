@@ -113,6 +113,15 @@ The lower prediction accuracy can be possibly due to the complexity of both X an
 Additionally, the low accuracy can also be attributed to the raw data processing period. Since it is not appropriate to clean all the NaNs in this dataset, which will return a relatively tiny database, I droped some columns that contains too much NaNs in both rationality and personality. Additionally, I artificially filled some still-existing NaNs with 0 (the scale leans to less rationality). This may lead to an underestimation of the overall rationality. Therefore, if the research can be conducted again with completed database, the accuracy of the model should increase. 
 **Correlation:**
 ![Correlation](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Code/Correlation.png)
+- **Rationality and Personality**
+**Strong Negative Correlation**: *total_rationality_score* has a strong negative correlation with *Less_creative* (r = -0.10), and *Low_novelty_seeking* (r = -0.19), suggesting that higher rationality is associated with being more creative and seeking novelty.
+**Strong Possitive Correlation:** *total_rationality_score* has a relatively strong positive correlation with *Curiosity* and willingness to take new challenges *Intellectual_challenge*, which indicates that curious and intellectually active people tend to perform more rational.
+- **Within Personality Traits**
+**Strong Positive Correlations**: There are several variables that show strong positive correlations with each other, for instance:
+Creativity and Curiosity (r = 0.53)
+Creativity and Novelty_methods (r = 0.51)
+Intellectual_challenge and Aspiration_to_knowledge (r = 0.64)
+These strong positive correlations indicate that as one trait increases, the other does too, for example, those who enjoy intellectual challenges also aspire to gain knowledge.
 
 
 ### References
