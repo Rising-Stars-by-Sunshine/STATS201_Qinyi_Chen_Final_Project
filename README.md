@@ -69,7 +69,7 @@ Maymin, Philip Z., and Ellen J. Langer. “Cognitive Biases and Mindfulness.” 
 Provide details on data sources and usage.
 
 ### Code
-[code](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/code)
+[Final_Project_notebook](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Code/Final_Project_Qinyi_Cognitive_Bias_and_Personality.ipynb)
 
 ### Results
 **Model Accuracy**: 0.5625
