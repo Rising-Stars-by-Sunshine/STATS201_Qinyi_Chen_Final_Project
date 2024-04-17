@@ -21,4 +21,4 @@ This project investigates the correlation between personality traits and cogniti
 \label{tab:pseudocode}
 \end{table}
 ```
-[Markmap_of_Data_Query_and_Analysis](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/edit/main/Code/mark_code.png)
+![Markmap_of_Data_Query_and_Analysis](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/edit/main/Code/mark_code.png)
