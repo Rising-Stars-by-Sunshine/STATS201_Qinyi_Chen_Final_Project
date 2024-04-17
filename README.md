@@ -41,7 +41,27 @@ This research project holds significant intellectual and practical implications.
 Provide references in Chicago Author-Date Style and BibTex here.
 
 ### Method
-Detail your methodologies here.
+**Research Question Formulation**
+- **Objective:** The primary objective of this research is to explore and identify potential correlations between various personality traits and cognitive biases using machine learning techniques.
+- **Significance:** This question is crucial as it could provide insights into how intrinsic personality factors influence cognitive biases, potentially informing psychological and behavioral interventions.
+**Operational Measures**
+- **Variables**
+- **Dependent (Y):** Rationality indexes (evaluated by the ability to avoid multiple biases).
+- **Independent (X):** Personality traits measured by a standardized personality inventory.
+- **Data Type:** The dataset is cross-sectional, gathered from a series of assessments across a diverse population at a single point in time.
+**Hypothesis Development**
+- **Prediction Hypothesis:** It's hypothesized that certain personality traits such as openness and neuroticism are predictive of the extent to which an individual exhibits specific cognitive biases.
+- **Justification:** Previous research suggests that personality traits can influence decision-making processes and vulnerability to cognitive biases.
+- **Machine Learning Algorithm Selection:** Decision Trees and Random Forests were selected due to their efficacy in handling non-linear relationships and interactions between multiple predictors, which is typical in psychological data.
+**Model Development**
+- **Data Processing:** The data were cleaned for missing values and outliers, and variables were normalized to ensure uniform scale. Feature engineering was conducted to create interaction terms that might reveal complex associations.
+**Results Presentation**
+- **Training and Testing:** The model was trained on 70% of the data with the remaining 30% used for testing. Performance metrics and confusion matrices were used to evaluate outcomes.
+- **Data Visualization:** Results were visualized using ROC curves, precision-recall curves, and feature importance plots to illustrate the contributions of different variables.
+**Model Evaluation**
+- **Evaluation Criteria:** The models were evaluated based on accuracy, precision, recall, and the area under the ROC curve (AUC).
+- **Iterative Improvement:** Techniques such as hyperparameter tuning and cross-validation were employed to refine the models and improve their predictive accuracy.
+
 
 ### Data
 Provide details on data sources and usage.
