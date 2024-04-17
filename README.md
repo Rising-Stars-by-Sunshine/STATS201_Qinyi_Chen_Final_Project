@@ -7,25 +7,27 @@
 - **Acknowledgments**: I extend my sincere gratitude to Professor Luyao (Sunshine) Zhang for her invaluable supervision and insightful teaching during the STATS 201 machine learning for social science course. Her guidance and support were instrumental in shaping the development of this project. Additionally, I would like to express my thanks to my peers in STATS 201 for fostering a collaborative environment that greatly enriched my educational journey.
 
 ## Project Summary
-Applying Decoded Neurofeedback and Hyperalignment in motor-related brain patterns.
+**Applying Decision Tree to Investigate How Personality Traits Influence Rational Decision Making Behaviors**
 
 ### Background/Motivation
-The intricate relationship between neural signals and consciousness has been a long-standing enigma in neuroscience. Recent advancements in computer science, particularly in big data and machine learning, have ushered in groundbreaking possibilities for deciphering how the brain responds to external stimuli. Notably, decoded neurofeedback (DecNef) has demonstrated its potential to induce targeted neural plasticity (Shibata et al., 2018) through data obtained from traditional fMRI methods. Additionally, hyperalignment, a technique designed to align and compare brain activities across individuals, holds promise in unraveling the correlations between sensory information and neuronal representations.
+In behavioral science, rationality describes a person's ability to make proper decisions by utilizing optimal outcomes, often by mitigating various cognitive biases. The study "Cognitive Biases and Mindfulness" (Maymin & Langer, 2021) delved into the relationship between mindfulness and rationality. It surveyed participants on 22 cognitive biases across three conditions: Mindful, Mindequal, and Mindless, alongside conducting the Langer Mindfulness Survey (LMS) to measure personality traits influencing rational decision-making. The study concluded that a mindful state could enhance performance in reducing cognitive biases and making rational decisions. 
 
 ### Research Questions
-This study focuses on applying hyperalignment in processing human motor imagery data to decode how brain signals represent motor patterns. Furthermore, decoded neurofeedback is applied to figure out potential pathways of clinical post-injury motor recovery.
+How do different personality traits correlate with rational decision making behaviors?.
 
 ### Application Scenarios
-DecNef and hyperalignment are promising in enriching the theory of neuronal representation on external stimuli and behaviors. Moreover, the reinforcement technique can be used as a non-pharmacological intervention in several psychological disorders or neurological impairments.
+This research will be applicable in personal development, educational settings, and professional environments where decision-making and cognitive bias mitigation are critical.
 
 ### Methodology
-The study will be analyzing the online EEG database of human motor imagery data (https://paperswithcode.com/dataset/bci-competition-4-version-iia). Based on the existing data, hyperalignment will be applied to align the brain patterns of 9 tested individuals. According to Taschereau-Dumouche (2018), a more detailed process of data processing includes applying pyMVPA 2.4 (www.pymvpa.org) in the NeuroDebian environment and using sparse logistic regression to select the best models.
-
-### Results
-This study will potentially identify the brain patterns representation of motor signals, shedding light on the neural basis of motor imagery. Besides, the result is an exploration of potential avenues for clinical treatment of brain-related motor injuries through Decoded Neurofeedback.
+**Model Building**
+The study utilizes **Decision Tree models** to analyze the data. The X variable includes multiple personality traits, and the Y variable includes different aspects of rationality indexes. Under this circumstances, Decision Tree is most suitable for modeling two variables containing multi-dimentional input.
+**Data Visualization**
+The correlation between total score of rationality and each personality traits were calculated. Feature importance plots are employed to visually explore the relationships between personality traits and rational decision-making capacities.
 
 ## Intellectual Merits and Practical Impacts
-This research project holds significant intellectual and practical implications. Decoding brain signals related to motor imagery and recovery contributes to our understanding of neural representations. Furthermore, the potential applications of DeNef and hyperalignment techniques extend to non-pharmacological interventions in psychological disorders and neurological impairments, offering hope for improved clinical outcomes and patient well-being.
+- **Development of a Machine Learning Model of Rationality:** By integrating personality traits and rational decision-making metrics into a predictive model, this research contributes to the quantitative understanding of human behavior in decision sciences.
+- **Exploration of Correlations:** This project seeks to uncover potential correlations between rationality and various personality traits, offering a deeper understanding of how inherent characteristics influence decision-making processes.
+- **Practical Recommendations for Personal and Professional Growth:** The findings could provide actionable insights for individuals to adapt certain personality traits in work settings or other critical situations, fostering self-improvement and enhancing decision-making efficacy.
 
 ## Table of Contents
 1. [Literature](#literature)
@@ -38,7 +40,7 @@ This research project holds significant intellectual and practical implications.
 8. [References](#references)
 
 ### Literature
-Provide references in Chicago Author-Date Style and BibTex here.
+Maymin, Philip Z., and Ellen J. Langer. “Cognitive Biases and Mindfulness.” Humanities and Social Sciences Communications 8, no. 1 (February 3, 2021). [https://doi.org/10.1057/s41599-021-00712-1](https://doi.org/10.1057/s41599-021-00712-1). 
 
 ### Method
 **Research Question Formulation**
@@ -67,10 +69,14 @@ Provide references in Chicago Author-Date Style and BibTex here.
 Provide details on data sources and usage.
 
 ### Code
-Provide links to repositories or embed code snippets.
+[code](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/code)
 
 ### Results
-Discuss results in detail.
+**Model Accuracy**: 0.5625
+
+**Correlation**:
+![Correlation](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/code/Correlation.png)
+
 
 ### Spotlight
 Highlight unique contributions, media appearances, etc.
