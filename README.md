@@ -4,7 +4,7 @@
 - **Author**: Qinyi Chen, Behavioral Science/Neuroscience, Class of 2026, Duke Kunshan University
 - **Instructor**: Professor Luyao Zhang, Duke Kunshan University
 - **Disclaimer**: This project is a submission to the Final Project for STATS201 Introduction to Machine Learning for Social Science, 2023 Autumn Term (Seven Week - Second) instructed by Prof. Luyao Zhang at Duke Kunshan University.
-- **Acknowledgments**: I extend my sincere gratitude to Professor Luyao (Sunshine) Zhang for her invaluable supervision and insightful teaching during the STATS 201 machine learning for social science course. Her guidance and support were instrumental in shaping the development of this project. Additionally, I would like to express my thanks to my peers in STATS 201 for fostering a collaborative environment that greatly enriched my educational journey.
+- **Acknowledgments**: I extend my sincere gratitude to Professor Luyao Zhang for her invaluable supervision and insightful teaching during the STATS 201 machine learning for social science course. Her guidance and support were instrumental in shaping the development of this project. Additionally, I would like to acknowledge the helpful suggestiong made by my peers in this class such as Yifei Luo in broadening my ideas, as well as my friends not in this course. Sincere gratitude to my roommate Yihan Wang and my friend Juntang Wang in helping me querying database that is suitable for research. Moreover, thanks to my friend Chinyu in helping me with the bugged code.
 
 ## Project Summary
 **Applying Decision Tree to Investigate How Personality Traits Influence Rational Decision Making Behaviors**
@@ -35,9 +35,7 @@ The correlation between total score of rationality and each personality traits w
 3. [Data](#data)
 4. [Code](#code)
 5. [Results](#results)
-6. [Spotlight](#spotlight)
-7. [More about the Author](#more-about-the-author)
-8. [References](#references)
+6. [References](#references)
 
 ### Literature
 Maymin, Philip Z., and Ellen J. Langer. “Cognitive Biases and Mindfulness.” Humanities and Social Sciences Communications 8, no. 1 (February 3, 2021). [https://doi.org/10.1057/s41599-021-00712-1](https://doi.org/10.1057/s41599-021-00712-1). 
@@ -92,9 +90,11 @@ Maymin, Philip Z., and Ellen J. Langer. “Cognitive Biases and Mindfulness.” 
 [Final_Project_notebook](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Code/Final_Project_Qinyi_Cognitive_Bias_and_Personality.ipynb)
 
 ### Results
-**Model Accuracy**: 0.5625
-
-**Correlation**:
+**Model Accuracy: 0.5625**
+On average, the model correctly predicts approximately 56.25% of the labels across all the samples in the test set. This accuracy is lower than expectation but still acceptable. 
+The lower prediction accuracy can be possibly due to the complexity of both X and Y variables. In the personality traits, there are often 2 or 3 questions inquiring the same personality traits, yet the answer made by participants still changes slightly. The explanation of this phenomenon is some mis-interpreted self-evaluation, and that interferes with the modeling process.
+Additionally, the low accuracy can also be attributed to the raw data processing period. Since it is not appropriate to clean all the NaNs in this dataset, which will return a relatively tiny database, I droped some columns that contains too much NaNs in both rationality and personality. Additionally, I artificially filled some still-existing NaNs with 0 (the scale leans to less rationality). This may lead to an underestimation of the overall rationality. Therefore, if the research can be conducted again with completed database, the accuracy of the model should increase. 
+**Correlation:**
 ![Correlation](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Code/Correlation.png)
 
 
