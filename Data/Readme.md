@@ -4,14 +4,12 @@
 
 ## Table 1: Rationality Index
 
-| Variable Name            | Description                                     | Research Question | Options | Rational Choice|
+| Variable Name            | Description                                     | Research Question | Options | Rational Choice (2 points)|
 |--------------------------|-------------------------------------------------|----------------|---------------|---------------|
-| differentiating          | The ability to find the difference between two pictures|Can you spot the missing fruit?| A: Yes, I see the missing fruit
-B: No, I don’t see the missing fruit 
-C: No, I don’t think there is a missing fruit | A: Yes, I see the missing fruit|
-| illusion_debiasing       | Ability to discriminate biased illusion (e.g. vase or faces)    | What can you see here?|A: I see a vase. B: I see two faces. C: I see both a vase and the two faces. |
-| loss_aversion            | Description of variable loss_aversion           ||||
-| hyperbolic_discounting   | Description of variable hyperbolic_discounting  ||||
+| differentiating          | The ability to find the difference between two pictures|Can you spot the missing fruit?| A: Yes, I see the missing fruit; B: No, I don’t see the missing fruit; C: No, I don’t think there is a missing fruit | A: Yes, I see the missing fruit|
+| illusion_debiasing       | Ability to discriminate biased illusion (e.g. vase or faces) | What can you see here?|A: I see a vase. B: I see two faces. C: I see both a vase and the two faces. |C: I see both a vase and the two faces.|
+| loss_aversion            | Tendency of feeling the pain from losses twice as much as they feel the pleasure from gains.|Suppose you had to choose one of these two options. Which would you prefer?| a. You get $20 for sure. b. You toss a fair coin. Heads you get $300. Tails you lose $100.|b. You toss a fair coin. Heads you get $300. Tails you lose $100.|
+| hyperbolic_discounting   | The ability to reject current profit to delayed gratification | a. $1500 today; b. $1800 1 month from now| b. $1800 1 month from now||
 | conjunction_fallacy      | Description of variable conjunction_fallacy     ||||
 | gambling_fallacy         | Description of variable gambling_fallacy        ||||
 | confirmation_bias        | Description of variable confirmation_bias       ||||
