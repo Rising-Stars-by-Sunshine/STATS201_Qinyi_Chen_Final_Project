@@ -43,32 +43,47 @@ The correlation between total score of rationality and each personality trait wa
 Maymin, Philip Z., and Ellen J. Langer. “Cognitive Biases and Mindfulness.” Humanities and Social Sciences Communications 8, no. 1 (February 3, 2021). [https://doi.org/10.1057/s41599-021-00712-1](https://doi.org/10.1057/s41599-021-00712-1). 
 
 ### Method
+
 **Research Question Formulation**
+
 - **Objective:** The primary objective of this research is to explore and identify potential correlations between various personality traits and cognitive biases using machine learning techniques.
 - **Significance:** This question is crucial as it could provide insights into how intrinsic personality factors influence cognitive biases, potentially informing psychological and behavioral interventions.
+
 **Operational Measures**
+  
 - **Variables**
 - **Dependent (Y):** Rationality indexes (evaluated by the ability to avoid multiple biases).
 - **Independent (X):** Personality traits measured by a standardized personality inventory.
 - **Data Type:** The dataset is cross-sectional, gathered from a series of assessments across a diverse population at a single point in time.
+
 **Hypothesis Development**
+  
 - **Prediction Hypothesis:** It's hypothesized that certain personality traits such as openness and neuroticism are predictive of the extent to which an individual exhibits specific cognitive biases.
 - **Justification:** Previous research suggests that personality traits can influence decision-making processes and vulnerability to cognitive biases.
 - **Machine Learning Algorithm Selection:** Decision Trees and Random Forests were selected due to their efficacy in handling non-linear relationships and interactions between multiple predictors, which is typical in psychological data.
+  
 **Model Development**
+
 - **Data Processing:** The data were cleaned for missing values and outliers, and variables were normalized to ensure uniform scale. Feature engineering was conducted to create interaction terms that might reveal complex associations.
+
 **Results Presentation**
+
 - **Training and Testing:** The model was trained on 70% of the data with the remaining 30% used for testing. Performance metrics and confusion matrices were used to evaluate outcomes.
 - **Data Visualization:** Results were visualized using ROC curves, precision-recall curves, and feature importance plots to illustrate the contributions of different variables.
+
 **Model Evaluation**
+
 - **Evaluation Criteria:** The models were evaluated based on accuracy, precision, recall, and the area under the ROC curve (AUC).
 - **Iterative Improvement:** Techniques such as hyperparameter tuning and cross-validation were employed to refine the models and improve their predictive accuracy.
 
 
 ### Data
 The data was found from [Wolfram Data Repository-Maymin--Langer-2021-Cognitive-Biases-and-Mindfulness](https://datarepository.wolframcloud.com/resources/Philip%20Z.%20Maymin_Data-for-Maymin--Langer-2021-Cognitive-Biases-and-Mindfulness/)
+
 **Data dictionary**
+
 **Table 1：Rationality Index**
+
 | Variable Name            | Description                                     | Research Question | Options | Rational Choice (2 points)|
 |--------------------------|-------------------------------------------------|----------------|---------------|---------------|
 | differentiating          | The ability to find the difference between two pictures|Can you spot the missing fruit? ![missing_fruit](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Data/differenciating.png)| A: Yes, I see the missing fruit; B: No, I don’t see the missing fruit; C: No, I don’t think there is a missing fruit | A: Yes, I see the missing fruit|
@@ -87,7 +102,11 @@ The data was found from [Wolfram Data Repository-Maymin--Langer-2021-Cognitive-B
 | endowment_effect       | Tendency to overvalue items due to ownership            | Would you sell your lottery ticket for $2 after someone offers to buy it from you?                        | a. Yes b. No                                                                              | b. No |
 | leaping_to_conclusions | Tendency to rush to conclusions without considering all options | Which of the shapes provided does not belong? ![leap](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Data/leap.png)                                                       | a. A b. B c. C d. D e. E                                                                | c. C |
 | disposition_effect     | Tendency to hold onto losing positions too long         | What do you want to do with the shares of stock that you currently own after its price has dropped?       | a. Hold on until the price gets back to $50 or higher, then sell b. Sell now c. Sell if it drops even lower to $15, or if it gets back up to $50 | b. Sell now |
+
+
 **Table 2: Personality Traits**
+
+
 | Variable Name           | Inquiry Question                             | Max | Min | Mean     | STD      |
 |-------------------------|----------------------------------------------|-----|-----|----------|----------|
 | Less_creative           | I generate few novel ideas.                 | 7   | 0   | 3.541284 | 1.941420 |
@@ -109,16 +128,25 @@ The data was found from [Wolfram Data Repository-Maymin--Langer-2021-Cognitive-B
 [Final_Project_notebook](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Code/Final_Project_Qinyi_Cognitive_Bias_and_Personality.ipynb)
 
 ### Results
+
 **Model Accuracy: 0.5625**
+
 On average, the model correctly predicts approximately 56.25% of the labels across all the samples in the test set. This accuracy is lower than expected but still acceptable. 
+
 The lower prediction accuracy can be possibly due to the complexity of both X and Y variables. In the personality traits, there are often 2 or 3 questions inquiring about the same personality traits, yet the answer made by participants still changes slightly. The explanation of this phenomenon is some mis-interpreted self-evaluation, and that interferes with the modeling process.
+
 Additionally, the low accuracy can also be attributed to the raw data processing period. Since it is not appropriate to clean all the NaNs in this dataset, which will return a relatively tiny database, I dropped some columns that contain too many NaNs in both rationality and personality. Additionally, I artificially filled some still-existing NaNs with 0 (the scale leans to less rationality). This may lead to an underestimation of the overall rationality. Therefore, if the research can be conducted again with completed database, the accuracy of the model should increase. 
+
 **Correlation:**
+
 ![Correlation](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Code/Correlation.png)
+
 - **Rationality and Personality**
+
 **Strong Negative Correlation**: *total_rationality_score* has a strong negative correlation with *Less_creative* (r = -0.10), and *Low_novelty_seeking* (r = -0.19), suggesting that higher rationality is associated with being more creative and seeking novelty.
 **Strong Positive Correlation:** *total_rationality_score* has a relatively strong positive correlation with *Curiosity* and willingness to take on new intellectual challenges *Intellectual_challenge*, which indicates that curious and intellectually active people tend to perform more rationally.
 - **Within Personality Traits**
+  
 **Strong Positive Correlations**: There are several variables that show strong positive correlations with each other, for instance:
 Creativity and Curiosity (r = 0.53)
 Creativity and Novelty_methods (r = 0.51)
