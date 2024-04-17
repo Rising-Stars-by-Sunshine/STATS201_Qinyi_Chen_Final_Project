@@ -75,7 +75,7 @@ Provide details on data sources and usage.
 **Model Accuracy**: 0.5625
 
 **Correlation**:
-![Correlation](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/code/Correlation.png)
+![Correlation](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Code/Correlation.png)
 
 
 ### Spotlight
