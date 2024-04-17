@@ -8,6 +8,8 @@
 
 ## Project Summary
 **Applying Decision Tree to Investigate How Personality Traits Influence Rational Decision-Making Behaviors**
+![chart](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Flow_chart.png)
+*Flow Chart Created by Marksmap*
 
 ### Background/Motivation
 In behavioral science, rationality describes a person's ability to make proper decisions by utilizing optimal outcomes, often by mitigating various cognitive biases. The study "Cognitive Biases and Mindfulness" (Maymin & Langer, 2021) delved into the relationship between mindfulness and rationality. It surveyed participants on 22 cognitive biases across three conditions: Mindful, Mindequal, and Mindless, alongside conducting the Langer Mindfulness Survey (LMS) to measure personality traits influencing rational decision-making. The study concluded that a mindful state could enhance performance by reducing cognitive biases and making rational decisions. 
