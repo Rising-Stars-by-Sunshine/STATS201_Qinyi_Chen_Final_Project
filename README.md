@@ -1,4 +1,4 @@
-# Applying Decoded Neurofeedback and Hyperalignment in moter-related brain patterns
+# Applying Decision Tree to Investigate How Personality Traits Influence Rational Decision Making Behaviors
 
 ## Project Information
 - **Author**: Qinyi Chen, Behavioral Science/Neuroscience, Class of 2026, Duke Kunshan University
