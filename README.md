@@ -1,28 +1,28 @@
-# Applying Decision Tree to Investigate How Personality Traits Influence Rational Decision Making Behaviors
+# Applying Decision Tree to Investigate How Personality Traits Influence Rational Decision-Making Behaviors
 
 ## Project Information
 - **Author**: Qinyi Chen, Behavioral Science/Neuroscience, Class of 2026, Duke Kunshan University
 - **Instructor**: Professor Luyao Zhang, Duke Kunshan University
 - **Disclaimer**: This project is a submission to the Final Project for STATS201 Introduction to Machine Learning for Social Science, 2023 Autumn Term (Seven Week - Second) instructed by Prof. Luyao Zhang at Duke Kunshan University.
-- **Acknowledgments**: I extend my sincere gratitude to Professor Luyao Zhang for her invaluable supervision and insightful teaching during the STATS 201 machine learning for social science course. Her guidance and support were instrumental in shaping the development of this project. Additionally, I would like to acknowledge the helpful suggestiong made by my peers in this class such as Yifei Luo in broadening my ideas, as well as my friends not in this course. Sincere gratitude to my roommate Yihan Wang and my friend Juntang Wang in helping me querying database that is suitable for research. Moreover, thanks to my friend Chinyu Chen in helping me with the bugged code.
+- **Acknowledgments**: I extend my sincere gratitude to Professor Luyao Zhang for her invaluable supervision and insightful teaching during the STATS 201 machine learning for social science course. Her guidance and support were instrumental in shaping the development of this project. Additionally, I would like to acknowledge the helpful suggestions made by my peers in this class such as Yifei Luo in broadening my ideas, as well as my friends not in this course. Sincere gratitude to my roommate Yihan Wang and my friend Juntang Wang for helping me query datasets that are suitable for research. Moreover, thanks to my friend Chinyu Chen for helping me with the bugged code.
 
 ## Project Summary
-**Applying Decision Tree to Investigate How Personality Traits Influence Rational Decision Making Behaviors**
+**Applying Decision Tree to Investigate How Personality Traits Influence Rational Decision-Making Behaviors**
 
 ### Background/Motivation
-In behavioral science, rationality describes a person's ability to make proper decisions by utilizing optimal outcomes, often by mitigating various cognitive biases. The study "Cognitive Biases and Mindfulness" (Maymin & Langer, 2021) delved into the relationship between mindfulness and rationality. It surveyed participants on 22 cognitive biases across three conditions: Mindful, Mindequal, and Mindless, alongside conducting the Langer Mindfulness Survey (LMS) to measure personality traits influencing rational decision-making. The study concluded that a mindful state could enhance performance in reducing cognitive biases and making rational decisions. 
+In behavioral science, rationality describes a person's ability to make proper decisions by utilizing optimal outcomes, often by mitigating various cognitive biases. The study "Cognitive Biases and Mindfulness" (Maymin & Langer, 2021) delved into the relationship between mindfulness and rationality. It surveyed participants on 22 cognitive biases across three conditions: Mindful, Mindequal, and Mindless, alongside conducting the Langer Mindfulness Survey (LMS) to measure personality traits influencing rational decision-making. The study concluded that a mindful state could enhance performance by reducing cognitive biases and making rational decisions. 
 
 ### Research Questions
-How do different personality traits correlate with rational decision making behaviors?.
+How do different personality traits correlate with rational decision making behaviors?
 
 ### Application Scenarios
 This research will be applicable in personal development, educational settings, and professional environments where decision-making and cognitive bias mitigation are critical.
 
 ### Methodology
 **Model Building**
-The study utilizes **Decision Tree models** to analyze the data. The X variable includes multiple personality traits, and the Y variable includes different aspects of rationality indexes. Under this circumstances, Decision Tree is most suitable for modeling two variables containing multi-dimentional input.
+The study utilizes **Decision Tree models** to analyze the data. The X variable includes multiple personality traits, and the Y variable includes different aspects of rationality indexes. Under this circumstance, the Decision Tree is most suitable for modeling two variables containing multi-dimensional input.
 **Data Visualization**
-The correlation between total score of rationality and each personality traits were calculated. Feature importance plots are employed to visually explore the relationships between personality traits and rational decision-making capacities.
+The correlation between total score of rationality and each personality trait was calculated. Feature importance plots are employed to visually explore the relationships between personality traits and rational decision-making capacities.
 
 ## Intellectual Merits and Practical Impacts
 - **Development of a Machine Learning Model of Rationality:** By integrating personality traits and rational decision-making metrics into a predictive model, this research contributes to the quantitative understanding of human behavior in decision sciences.
@@ -108,14 +108,14 @@ The data was found from [Wolfram Data Repository-Maymin--Langer-2021-Cognitive-B
 
 ### Results
 **Model Accuracy: 0.5625**
-On average, the model correctly predicts approximately 56.25% of the labels across all the samples in the test set. This accuracy is lower than expectation but still acceptable. 
-The lower prediction accuracy can be possibly due to the complexity of both X and Y variables. In the personality traits, there are often 2 or 3 questions inquiring the same personality traits, yet the answer made by participants still changes slightly. The explanation of this phenomenon is some mis-interpreted self-evaluation, and that interferes with the modeling process.
-Additionally, the low accuracy can also be attributed to the raw data processing period. Since it is not appropriate to clean all the NaNs in this dataset, which will return a relatively tiny database, I droped some columns that contains too much NaNs in both rationality and personality. Additionally, I artificially filled some still-existing NaNs with 0 (the scale leans to less rationality). This may lead to an underestimation of the overall rationality. Therefore, if the research can be conducted again with completed database, the accuracy of the model should increase. 
+On average, the model correctly predicts approximately 56.25% of the labels across all the samples in the test set. This accuracy is lower than expected but still acceptable. 
+The lower prediction accuracy can be possibly due to the complexity of both X and Y variables. In the personality traits, there are often 2 or 3 questions inquiring about the same personality traits, yet the answer made by participants still changes slightly. The explanation of this phenomenon is some mis-interpreted self-evaluation, and that interferes with the modeling process.
+Additionally, the low accuracy can also be attributed to the raw data processing period. Since it is not appropriate to clean all the NaNs in this dataset, which will return a relatively tiny database, I dropped some columns that contain too many NaNs in both rationality and personality. Additionally, I artificially filled some still-existing NaNs with 0 (the scale leans to less rationality). This may lead to an underestimation of the overall rationality. Therefore, if the research can be conducted again with completed database, the accuracy of the model should increase. 
 **Correlation:**
 ![Correlation](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Code/Correlation.png)
 - **Rationality and Personality**
 **Strong Negative Correlation**: *total_rationality_score* has a strong negative correlation with *Less_creative* (r = -0.10), and *Low_novelty_seeking* (r = -0.19), suggesting that higher rationality is associated with being more creative and seeking novelty.
-**Strong Possitive Correlation:** *total_rationality_score* has a relatively strong positive correlation with *Curiosity* and willingness to take new challenges *Intellectual_challenge*, which indicates that curious and intellectually active people tend to perform more rational.
+**Strong Positive Correlation:** *total_rationality_score* has a relatively strong positive correlation with *Curiosity* and willingness to take on new intellectual challenges *Intellectual_challenge*, which indicates that curious and intellectually active people tend to perform more rationally.
 - **Within Personality Traits**
 **Strong Positive Correlations**: There are several variables that show strong positive correlations with each other, for instance:
 Creativity and Curiosity (r = 0.53)
