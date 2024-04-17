@@ -66,7 +66,27 @@ Maymin, Philip Z., and Ellen J. Langer. “Cognitive Biases and Mindfulness.” 
 
 
 ### Data
-Provide details on data sources and usage.
+
+**Data dictionary**
+**Table 1：Rationality Index**
+
+**Table 2: Personality Traits**
+| Variable Name           | Inquiry Question                             | Max | Min | Mean     | STD      |
+|-------------------------|----------------------------------------------|-----|-----|----------|----------|
+| Less_creative           | I generate few novel ideas.                 | 7   | 0   | 3.541284 | 1.941420 |
+| Novelty_producing      | I make many novel contributions.             | 7   | 1   | 4.275229 | 1.626582 |
+| Engagement             | I seldom notice what other people are up to.| 7   | 1   | 2.853211 | 1.626321 |
+| Low_novelty_seeking    | I avoid thought-provoking conversations.     | 7   | 1   | 2.293578 | 1.523293 |
+| Creativity             | I am very creative.                          | 7   | 1   | 4.495413 | 1.636527 |
+| Curiosity              | I am very curious.                           | 7   | 1   | 5.431193 | 1.529748 |
+| Novelty_methods        | I try to think of new ways of doing things. | 7   | 1   | 5.348624 | 1.511537 |
+| Agility                | I am rarely aware of changes.                | 7   | 1   | 2.311927 | 1.274372 |
+| Intellectual_challenge | I like to be challenged intellectually.      | 7   | 1   | 5.550459 | 1.443287 |
+| Creative_producing     | I find it easy to create new and effective ideas. | 7   | 1   | 4.587156 | 1.717077 |
+| Insight_of_environment | I am rarely alert to new developments.       | 7   | 1   | 2.541284 | 1.384652 |
+| Aspiration_to_knowledge| I like to figure out how things work.        | 7   | 1   | 5.394495 | 1.509343 |
+| Conservative_thinking  | I am not an original thinker.                | 7   | 1   | 2.889908 | 1.657416 |
+
 
 ### Code
 [Final_Project_notebook](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Code/Final_Project_Qinyi_Cognitive_Bias_and_Personality.ipynb)
@@ -78,20 +98,7 @@ Provide details on data sources and usage.
 ![Correlation](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Code/Correlation.png)
 
 
-### Spotlight
-Highlight unique contributions, media appearances, etc.
-
-### More about the Author
-- **Headshot**: [Insert headshot]
-- **Self-introduction**
-- **Final Reflections**
-  - Intellectual growth
-  - Professional growth
-  - Living a purposeful life
-
 ### References
-- **Data Source**: [BNCI 2014-001 Motor Imagery dataset. Dataset](https://paperswithcode.com/dataset/bci-competition-4-version-iia)
-- **Code Source**: [Provide URL to your code repository]
-- **Article Sources**:
-  - Shibata, Kazuhisa, et al. "Toward a Comprehensive Understanding of the Neural Mechanisms of Decoded Neurofeedback." NeuroImage 188 (2019): 539–56. https://doi.org/10.1016/j.neuroimage.2018.12.022.
-  - Taschereau-Dumouchel
+- **Data Source**: [Wolfram Data Repository-Maymin--Langer-2021-Cognitive-Biases-and-Mindfulness](https://datarepository.wolframcloud.com/resources/Philip%20Z.%20Maymin_Data-for-Maymin--Langer-2021-Cognitive-Biases-and-Mindfulness/)
+- **Code Source**: [Final_Project_notebook](https://github.com/Rising-Stars-by-Sunshine/STATS201_Qinyi_Chen_Final_Project/blob/main/Code/Final_Project_Qinyi_Cognitive_Bias_and_Personality.ipynb)
+- **Article Sources**:Maymin, Philip Z., and Ellen J. Langer. “Cognitive Biases and Mindfulness.” Humanities and Social Sciences Communications 8, no. 1 (February 3, 2021). [https://doi.org/10.1057/s41599-021-00712-1](https://doi.org/10.1057/s41599-021-00712-1). 
