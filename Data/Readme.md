@@ -6,7 +6,9 @@
 
 | Variable Name            | Description                                     | Research Question | Options | Rational Choice|
 |--------------------------|-------------------------------------------------|----------------|---------------|---------------|
-| differentiating          | The ability to find the difference between two pictures|Can you spot the missing fruit?| A: Yes, I see the missing fruit B: No, I don’t see the missing fruit C: No, I don’t think there is a missing fruit | A: Yes, I see the missing fruit|
+| differentiating          | The ability to find the difference between two pictures|Can you spot the missing fruit?| A: Yes, I see the missing fruit
+B: No, I don’t see the missing fruit 
+C: No, I don’t think there is a missing fruit | A: Yes, I see the missing fruit|
 | illusion_debiasing       | Ability to discriminate biased illusion (e.g. vase or faces)    | What can you see here?|A: I see a vase. B: I see two faces. C: I see both a vase and the two faces. |
 | loss_aversion            | Description of variable loss_aversion           ||||
 | hyperbolic_discounting   | Description of variable hyperbolic_discounting  ||||
