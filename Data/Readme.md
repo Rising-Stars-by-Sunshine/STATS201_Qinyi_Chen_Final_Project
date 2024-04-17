@@ -25,18 +25,18 @@
 
 ## Table 2: Personality Traits
 
-| Variable Name            | Description                                     |
-|--------------------------|-------------------------------------------------|
-| Less_creative            | Description of variable Less_creative           |
-| Novelty_producing        | Description of variable Novelty_producing       |
-| Engagement               | Description of variable Engagement              |
-| Low_novelty_seeking     | Description of variable Low_novelty_seeking     |
-| Creativity               | Description of variable Creativity              |
-| Curiosity                | Description of variable Curiosity               |
-| Novelty_methods          | Description of variable Novelty_methods         |
-| Agility                  | Description of variable Agility                 |
-| Intellectual_challenge   | Description of variable Intellectual_challenge  |
-| Creative_producing       | Description of variable Creative_producing      |
-| Insight_of_environment   | Description of variable Insight_of_environment  |
-| Aspiration_to_knowledge  | Description of variable Aspiration_to_knowledge |
-| Conservative_thinking    | Description of variable Conservative_thinking   |
+| Variable Name           | Inquiry Question                             | Max | Min | Mean     | STD      |
+|-------------------------|----------------------------------------------|-----|-----|----------|----------|
+| Less_creative           | I generate few novel ideas.                 | 7   | 0   | 3.541284 | 1.941420 |
+| Novelty_producing      | I make many novel contributions.             | 7   | 1   | 4.275229 | 1.626582 |
+| Engagement             | I seldom notice what other people are up to.| 7   | 1   | 2.853211 | 1.626321 |
+| Low_novelty_seeking    | I avoid thought-provoking conversations.     | 7   | 1   | 2.293578 | 1.523293 |
+| Creativity             | I am very creative.                          | 7   | 1   | 4.495413 | 1.636527 |
+| Curiosity              | I am very curious.                           | 7   | 1   | 5.431193 | 1.529748 |
+| Novelty_methods        | I try to think of new ways of doing things. | 7   | 1   | 5.348624 | 1.511537 |
+| Agility                | I am rarely aware of changes.                | 7   | 1   | 2.311927 | 1.274372 |
+| Intellectual_challenge | I like to be challenged intellectually.      | 7   | 1   | 5.550459 | 1.443287 |
+| Creative_producing     | I find it easy to create new and effective ideas. | 7   | 1   | 4.587156 | 1.717077 |
+| Insight_of_environment | I am rarely alert to new developments.       | 7   | 1   | 2.541284 | 1.384652 |
+| Aspiration_to_knowledge| I like to figure out how things work.        | 7   | 1   | 5.394495 | 1.509343 |
+| Conservative_thinking  | I am not an original thinker.                | 7   | 1   | 2.889908 | 1.657416 |
